@@ -1,0 +1,59 @@
+body {
+    width: auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.922);
+}
+
+main {
+    color: white;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: system-ui;
+    justify-content: space-evenly;
+    gap: 3rem;
+    border: 5px solid white;
+}
+
+button{
+    width: auto;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    text-align: center;
+}
+
+section img {
+    max-width: 320px;
+    height: auto;
+   
+}
+
+.loading-img .img {
+    width: 150px;
+    height: 150px;
+}
+
+.imgUrl{
+border: 5px solid white;
+}
