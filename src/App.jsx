@@ -35,17 +35,17 @@ export function App() {
 
     return (
         <main>
-            <h1> Jr Test Tech </h1>
-            <button onClick={() => setRandom(prev => !prev)}>
 
+            <h1> Jr Test Tech </h1>
+
+            <button onClick={() => setRandom(prev => !prev)}>
                 Generar Nueva imagen
             </button>
-
-            <section>
+            <div className="text">
                 {fact && <p> {fact} </p>}
-                {loading ? (<img src="/src/assets/loading.svg" className="loading-img" alt="Cargando..." />)
-                    : (imageUrl && <img src={imageUrl} className="imgUrl" alt={`Imagen generada por las tres primeras palabras del hecho`} />)}
-            </section>
+            </div>
+            {loading ? (<img src="/src/assets/loading.svg" className="loading-img" alt="Cargando..." />)
+                : (imageUrl && <img src={imageUrl} className="imgUrl" alt={`Imagen generada por las tres primeras palabras del hecho`} />)}
 
         </main>
     )
