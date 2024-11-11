@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0",
     "@vitejs/plugin-react": "^4.3.3",
     "standard": "^17.1.2",
     "vite": "^4.3.9"
